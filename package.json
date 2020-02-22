@@ -31,7 +31,7 @@
     "ansi-colors": "^3.2.1",
     "async": "^2.6.1",
     "await-exec": "^0.1.2",
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.7.2",
     "browser-sync": "^2.26.4",
     "bufferstreams": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",

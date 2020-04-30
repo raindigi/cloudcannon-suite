@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "mocha test/unit/**/*.js --reporter spec --check-leaks --bail"
+    "test": "mocha test/unit/**/*.js --reporter spec --check-leaks --bail",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -58,6 +60,8 @@
     "underscore": "^1.9.1",
     "unicharadata": "^9.0.0-alpha.6",
     "url-parse": "^1.4.4",
-    "vinyl": "^2.2.0"
-  }
+    "vinyl": "^2.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
